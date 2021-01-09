@@ -1,0 +1,50 @@
+	/*Create method*/
+	
+		optionsOverlay = new FlxTileblock(150, 80, 100, 130);//780, 400
+		optionsOverlay.makeGraphic(100, 130, 0xff000000);// 390, 230
+		optionsOverlay.setAlpha(0.5f);
+		optionsOverlay.setSolid(false);
+		optionsOverlay.immovable = true;
+		optionsOverlay.scrollFactor.x = optionsOverlay.scrollFactor.y = 0;
+		optionsOverlay.exists = true;
+		optionsOverlay.visible = false;
+
+		Musicbtn = new FlxButton(160, 110, "MUSIC:ON");//x.190, x.180, x.170, y.110
+		Musicbtn.setSolid(false);//Coords 1: (400, 240),
+		Musicbtn.immovable = true;
+		Musicbtn.scrollFactor.x = Musicbtn.scrollFactor.y = 0;
+		Musicbtn.exists = true;
+		Musicbtn.visible = false;
+
+		Sfxbtn = new FlxButton(160, 130, "SFX:ON");//x.190, x.180, x.170, y.130
+		Sfxbtn.setSolid(false);//Coords 1: (400, 260), 
+		Sfxbtn.immovable = true;
+		Sfxbtn.scrollFactor.x = Sfxbtn.scrollFactor.y = 0;
+		Sfxbtn.exists = true;
+		Sfxbtn.visible = false;
+		
+		Closebtn = new FlxButton(300, 30, "X");//x.190, x.180, x.170, y.130
+		Closebtn.setSolid(false);//Coords 1: (400, 260), 
+		Closebtn.immovable = true;
+		Closebtn.scrollFactor.x = Closebtn.scrollFactor.y = 0;
+		Closebtn.exists = true;
+		Closebtn.visible = false;
+
+		add(optionsOverlay);
+		add(Musicbtn);
+		add(Sfxbtn);
+		add(Closebtn);
+		
+		/* Update method */
+		if(Musicbtn.status == FlxButton.PRESSED && FlxG.music.active == true){
+			FlxG.music.pause();
+		}else if(Musicbtn.status == FlxButton.PRESSED && FlxG.music.active == false){
+			FlxG.music.resume();
+		}
+		
+		if(Sfxbtn.status == FlxButton.PRESSED && FlxG.sounds.active == true){
+			FlxG.pauseSounds();
+		}else if(Sfxbtn.status == FlxButton.PRESSED && FlxG.sounds.active == false){
+			FlxG.resumeSounds();
+		}
+

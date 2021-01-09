@@ -1,0 +1,12 @@
+/***Entity Ids**/
+
+Bat - 380
+Crawler - 381
+Crusher - 382
+Enemy - 383
+Mage - 384
+Silverfish - 385
+Skeleton - 386
+Slime - 387
+Turret - 388
+AppleBatMinion - 389

@@ -1,0 +1,14 @@
+/*NEEDED ART WORK DONE*/
+
+1. 
+2. A nice SplashScreen with our company's name and maybe some animation(Not neccessary) Dimensions 400x240 Max.
+3.
+4. A Grass world sprite icon that displays a small pic preview of what the level type looks like. This is for level type selection. Dimensions 96x96 or 112x112.
+5. A Dungeon world sprite icon that displays a small pic preview of what the level type looks like. This is for level type selection. Dimensions 96x96 or 112x112.
+6. A Hell world sprite icon that displays a small pic preview of what the level type looks like. This is for level type selection. Dimensions 96x96 or 112x112.
+7. Some new blocks for grass/stone or nether to add more texture. Dimensions 32x32. This can also be for current items or keys.
+8. An In game background sprite to be added for each level type of grass, dungeon and nether. Since its either just blue or a black background right now. Dimensions 800x480.
+9.
+10. A new player sprite to represent Ozlin better with smooth running movement and jumping. Maybe an animation for shooting too. Dimensions 32x32.
+
+/*MAKE SURE YOU ADD ALL ANIMATION FRAMES IN THE SAME .PNG IMAGE FOR WHATEVER SPRITE YOU ARE MAKING!*/

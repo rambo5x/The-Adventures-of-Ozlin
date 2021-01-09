@@ -1,0 +1,19 @@
+/***PLANS FOR OZLIN 2.0***/
+
+ 1. Game will have 30 levels in total for the first version.
+ 2. Every 10 levels will be categorized in the 3 worlds(Surface,Underground and Hell).
+ 3. Each 10th level will be a boss level and categorized for each world and difficulty.
+ 3. Menu screen with the player moving around a level.
+ 4. SplashScreen for a few seconds before the Menu.
+ 5. Some other Menu options for more technical settings.
+ 6. World Selection with locks on if levels have not been completed.
+ 7. Controls being left,right,jump,shoot and anti-gravity on some levels.
+ 8. Different enemies that will be goblins,skeletons,stone crushers,bats,slimes,mages and other enemies for the hellish world.
+ 9. Powerups in several difficult levels that may require a boost. Specifically Boss levels
+ 10. Ads to be implemented once game is nearly complete.
+ 11. Level editor to be implemented to create and share custom levels.
+ 12. Pause Menu in each level with simple options.
+ 13. A possible implementation for LAN multiplayer in a future update.
+ 14. A simple tutorial level to explain controls and idea of the game.
+ 15. Small decent story to go along with the game's genre.
+ 

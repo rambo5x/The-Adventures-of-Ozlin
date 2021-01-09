@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><classpath>
+<classpathentry kind="src" path="src"/>
+<classpathentry kind="src" path="gen"/>
+<classpathentry combineaccessrules="false" exported="true" kind="src" path="/StarAssault"/>
+<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+<classpathentry exported="true" kind="src" path="/StarAssault"/>
+<classpathentry exported="true" kind="lib" path="/StarAssault/libs/gdx.jar"/>
+<classpathentry exported="true" kind="lib" path="/StarAssault/libs/gdx-freetype.jar"/>
+<classpathentry exported="true" kind="lib" path="libs/gdx-backend-android.jar"/>
+<classpathentry exported="true" kind="lib" path="/StarAssault/libs/flixel-core.jar"/>
+<classpathentry exported="true" kind="lib" path="libs/flixel-android.jar"/>
+<classpathentry exported="true" kind="lib" path="/StarAssault/libs/tween-engine-api.jar"/>
+<classpathentry kind="output" path="bin/classes"/>
+<classpathentry kind="lib" path="/storage/emulated/0/Download/StarAssualt/StarAssault-android/libs/GoogleAdMobAdsSdk-6.4.1.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/Download/StarAssualt/StarAssault-android/libs/flixel-android-sources.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/Download/StarAssualt/StarAssault-android/libs/gdx-backend-android-sources.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/StarAssualt/StarAssault-android/libs/flixel-android-sources.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/StarAssualt/StarAssault-android/libs/gdx-backend-android-sources.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/StarAssualt/StarAssault-android/libs/google-play-services.jar"/>
+<classpathentry kind="lib" path="/storage/emulated/0/AppProjects/TMCPESDownloader/libs/google-play-services.jar"/>
+</classpath>
